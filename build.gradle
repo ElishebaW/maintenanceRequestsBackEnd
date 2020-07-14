@@ -4,7 +4,7 @@ plugins {
 	id 'java'
 }
 
-group = 'com.busticket.application'
+group = 'com.maintenance.requests'
 version = '0.0.1-SNAPSHOT'
 sourceCompatibility = '11'
 
@@ -29,7 +29,8 @@ dependencies {
 	implementation 'org.springframework.boot:spring-boot-starter-data-jpa'
 	implementation 'org.springframework.boot:spring-boot-starter-security'
 	implementation 'org.springframework.boot:spring-boot-starter-web'
-	implementation 'com.okta.spring:okta-spring-boot-starter:1.4.0'
+	implementation 'org.springframework.boot:spring-boot-starter-data-jdbc:2.1.8.RELEASE'
+	compile group: 'org.postgresql', name: 'postgresql', version: '42.2.1'
 	compileOnly 'org.projectlombok:lombok'
 	developmentOnly 'org.springframework.boot:spring-boot-devtools'
 	annotationProcessor 'org.projectlombok:lombok'
