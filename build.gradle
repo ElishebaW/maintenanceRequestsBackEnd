@@ -31,20 +31,26 @@ dependencies {
 	implementation 'org.springframework.boot:spring-boot-starter-web'
 	implementation 'org.springframework.boot:spring-boot-starter-data-jdbc:2.1.8.RELEASE'
 	implementation 'org.flywaydb:flyway-core'
+	
 	compile group: 'org.postgresql', name: 'postgresql'
 	compileOnly 'org.projectlombok:lombok'
 	runtimeOnly 'com.h2database:h2'
-    testImplementation 'junit:junit:4.13'
 	developmentOnly 'org.springframework.boot:spring-boot-devtools'
 	annotationProcessor 'org.projectlombok:lombok'
 	testImplementation('org.springframework.boot:spring-boot-starter-test') {
 		exclude group: 'org.junit.vintage', module: 'junit-vintage-engine'
 	}
 	testImplementation 'org.springframework.security:spring-security-test'
+	testImplementation("org.junit.jupiter:junit-jupiter-api:5.6.2")
+    testRuntimeOnly("org.junit.jupiter:junit-jupiter-engine:5.6.2")
 }
 
 test {
-    useJUnit()
-    maxHeapSize = '1G'
+    useJUnitPlatform()
+    
+    systemProperty 'junit.jupiter.conditions.deactivate', '*'
+    systemProperties = [
+        'junit.jupiter.extensions.autodetection.enabled': 'true',
+        'junit.jupiter.testinstance.lifecycle.default': 'per_class'
+    ]
 }
-
