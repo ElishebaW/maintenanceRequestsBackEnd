@@ -34,16 +34,6 @@
 			<attribute name="gradle_used_by_scope" value="main,test"/>
 		</attributes>
 	</classpathentry>
-	<classpathentry kind="lib" path="/Users/elishebaanderson/.gradle/caches/modules-2/files-2.1/com.okta.spring/okta-spring-boot-starter/1.4.0/7aeb53bf3c42b42c47cd57f596781001cfefd450/okta-spring-boot-starter-1.4.0.jar">
-		<attributes>
-			<attribute name="gradle_used_by_scope" value="main,test"/>
-		</attributes>
-	</classpathentry>
-	<classpathentry kind="lib" path="/Users/elishebaanderson/.gradle/caches/modules-2/files-2.1/com.okta.spring/okta-spring-security-oauth2/1.4.0/2ecde9ab0f0badd0791e69312c49feb171dcfb0/okta-spring-security-oauth2-1.4.0.jar" sourcepath="/Users/elishebaanderson/.gradle/caches/modules-2/files-2.1/com.okta.spring/okta-spring-security-oauth2/1.4.0/ca819b57b4a2ffbfd5d70c6bae29e4c5a15f153c/okta-spring-security-oauth2-1.4.0-sources.jar">
-		<attributes>
-			<attribute name="gradle_used_by_scope" value="main,test"/>
-		</attributes>
-	</classpathentry>
 	<classpathentry kind="lib" path="/Users/elishebaanderson/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-starter-security/2.2.6.RELEASE/27b75e738d353de4475df6751852bacf3832afec/spring-boot-starter-security-2.2.6.RELEASE.jar" sourcepath="/Users/elishebaanderson/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-starter-security/2.2.6.RELEASE/b384ccb4170a3bf591fa42fe2a907a79b347bdb9/spring-boot-starter-security-2.2.6.RELEASE-sources.jar">
 		<attributes>
 			<attribute name="gradle_used_by_scope" value="main,test"/>
@@ -144,27 +134,12 @@
 			<attribute name="gradle_used_by_scope" value="main,test"/>
 		</attributes>
 	</classpathentry>
-	<classpathentry kind="lib" path="/Users/elishebaanderson/.gradle/caches/modules-2/files-2.1/org.springframework.security/spring-security-oauth2-client/5.2.2.RELEASE/dce97bc08da072153e121737e7f193ad0f895928/spring-security-oauth2-client-5.2.2.RELEASE.jar" sourcepath="/Users/elishebaanderson/.gradle/caches/modules-2/files-2.1/org.springframework.security/spring-security-oauth2-client/5.2.2.RELEASE/ad3877be558b7592499ed01d0a329300dab05be6/spring-security-oauth2-client-5.2.2.RELEASE-sources.jar">
-		<attributes>
-			<attribute name="gradle_used_by_scope" value="main,test"/>
-		</attributes>
-	</classpathentry>
-	<classpathentry kind="lib" path="/Users/elishebaanderson/.gradle/caches/modules-2/files-2.1/org.springframework.security/spring-security-oauth2-resource-server/5.2.2.RELEASE/2059756df8c7c33aa52081c2ebedb5894704afda/spring-security-oauth2-resource-server-5.2.2.RELEASE.jar" sourcepath="/Users/elishebaanderson/.gradle/caches/modules-2/files-2.1/org.springframework.security/spring-security-oauth2-resource-server/5.2.2.RELEASE/eec0b11b677c4bebab36932bc32efec6a084222c/spring-security-oauth2-resource-server-5.2.2.RELEASE-sources.jar">
-		<attributes>
-			<attribute name="gradle_used_by_scope" value="main,test"/>
-		</attributes>
-	</classpathentry>
 	<classpathentry kind="lib" path="/Users/elishebaanderson/.gradle/caches/modules-2/files-2.1/org.springframework.security/spring-security-web/5.2.2.RELEASE/8e6c8c1e88654122d84ab79ad87186344b3d5eb2/spring-security-web-5.2.2.RELEASE.jar" sourcepath="/Users/elishebaanderson/.gradle/caches/modules-2/files-2.1/org.springframework.security/spring-security-web/5.2.2.RELEASE/108e4ba050a56d9ac042365a91fcc667a2aea179/spring-security-web-5.2.2.RELEASE-sources.jar">
 		<attributes>
 			<attribute name="gradle_used_by_scope" value="main,test"/>
 		</attributes>
 	</classpathentry>
 	<classpathentry kind="lib" path="/Users/elishebaanderson/.gradle/caches/modules-2/files-2.1/org.springframework/spring-webmvc/5.2.5.RELEASE/977247d51a5e4e3234b14d3aab910adee4e18e9b/spring-webmvc-5.2.5.RELEASE.jar" sourcepath="/Users/elishebaanderson/.gradle/caches/modules-2/files-2.1/org.springframework/spring-webmvc/5.2.5.RELEASE/2388837e6f967bb71399a6076c7070c0b0b1fddc/spring-webmvc-5.2.5.RELEASE-sources.jar">
-		<attributes>
-			<attribute name="gradle_used_by_scope" value="main,test"/>
-		</attributes>
-	</classpathentry>
-	<classpathentry kind="lib" path="/Users/elishebaanderson/.gradle/caches/modules-2/files-2.1/com.okta.spring/okta-spring-sdk/1.4.0/3ac187fd9643c51ebce84afa7d61d8ee4dfcd753/okta-spring-sdk-1.4.0.jar" sourcepath="/Users/elishebaanderson/.gradle/caches/modules-2/files-2.1/com.okta.spring/okta-spring-sdk/1.4.0/a244f27756d9a9da9da0506c08c731b8e98db185/okta-spring-sdk-1.4.0-sources.jar">
 		<attributes>
 			<attribute name="gradle_used_by_scope" value="main,test"/>
 		</attributes>
@@ -180,16 +155,6 @@
 		</attributes>
 	</classpathentry>
 	<classpathentry kind="lib" path="/Users/elishebaanderson/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot/2.2.6.RELEASE/3180b07556790401c4d9d47d634902fa085aa9b0/spring-boot-2.2.6.RELEASE.jar" sourcepath="/Users/elishebaanderson/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot/2.2.6.RELEASE/bc55d7c1a9020afde196285b81a3ab42058063b5/spring-boot-2.2.6.RELEASE-sources.jar">
-		<attributes>
-			<attribute name="gradle_used_by_scope" value="main,test"/>
-		</attributes>
-	</classpathentry>
-	<classpathentry kind="lib" path="/Users/elishebaanderson/.gradle/caches/modules-2/files-2.1/org.springframework.security/spring-security-oauth2-jose/5.2.2.RELEASE/9a1497c5193813dc1ce7176bb4ac2ae99a8c7d78/spring-security-oauth2-jose-5.2.2.RELEASE.jar" sourcepath="/Users/elishebaanderson/.gradle/caches/modules-2/files-2.1/org.springframework.security/spring-security-oauth2-jose/5.2.2.RELEASE/7cd9a7a38547166dd763aed01cfd2cc0249c64af/spring-security-oauth2-jose-5.2.2.RELEASE-sources.jar">
-		<attributes>
-			<attribute name="gradle_used_by_scope" value="main,test"/>
-		</attributes>
-	</classpathentry>
-	<classpathentry kind="lib" path="/Users/elishebaanderson/.gradle/caches/modules-2/files-2.1/org.springframework.security/spring-security-oauth2-core/5.2.2.RELEASE/26e01f172588d00e3f42fe99f4ec32720ddebb34/spring-security-oauth2-core-5.2.2.RELEASE.jar" sourcepath="/Users/elishebaanderson/.gradle/caches/modules-2/files-2.1/org.springframework.security/spring-security-oauth2-core/5.2.2.RELEASE/ef26f435838cdf45ce4859d772432c5038733fa6/spring-security-oauth2-core-5.2.2.RELEASE-sources.jar">
 		<attributes>
 			<attribute name="gradle_used_by_scope" value="main,test"/>
 		</attributes>
@@ -349,16 +314,6 @@
 			<attribute name="gradle_used_by_scope" value="main,test"/>
 		</attributes>
 	</classpathentry>
-	<classpathentry kind="lib" path="/Users/elishebaanderson/.gradle/caches/modules-2/files-2.1/com.okta.commons/okta-config-check/1.2.2/7826ce26d36efed9f50c6f6e7bee90a30d9d98aa/okta-config-check-1.2.2.jar" sourcepath="/Users/elishebaanderson/.gradle/caches/modules-2/files-2.1/com.okta.commons/okta-config-check/1.2.2/aca2f94118c5cd1235f7e9f6a88713a1349dd81c/okta-config-check-1.2.2-sources.jar">
-		<attributes>
-			<attribute name="gradle_used_by_scope" value="main,test"/>
-		</attributes>
-	</classpathentry>
-	<classpathentry kind="lib" path="/Users/elishebaanderson/.gradle/caches/modules-2/files-2.1/com.okta.commons/okta-commons-lang/1.2.2/39214a7d53c822d18ef3dfe600b3f79df43d1065/okta-commons-lang-1.2.2.jar" sourcepath="/Users/elishebaanderson/.gradle/caches/modules-2/files-2.1/com.okta.commons/okta-commons-lang/1.2.2/f1a6153a4b15b0cae97778bd80c29f88ba8ebaa0/okta-commons-lang-1.2.2-sources.jar">
-		<attributes>
-			<attribute name="gradle_used_by_scope" value="main,test"/>
-		</attributes>
-	</classpathentry>
 	<classpathentry kind="lib" path="/Users/elishebaanderson/.gradle/caches/modules-2/files-2.1/ch.qos.logback/logback-classic/1.2.3/7c4f3c474fb2c041d8028740440937705ebb473a/logback-classic-1.2.3.jar" sourcepath="/Users/elishebaanderson/.gradle/caches/modules-2/files-2.1/ch.qos.logback/logback-classic/1.2.3/cfd5385e0c5ed1c8a5dce57d86e79cf357153a64/logback-classic-1.2.3-sources.jar">
 		<attributes>
 			<attribute name="gradle_used_by_scope" value="main,test"/>
@@ -424,16 +379,6 @@
 			<attribute name="gradle_used_by_scope" value="main,test"/>
 		</attributes>
 	</classpathentry>
-	<classpathentry kind="lib" path="/Users/elishebaanderson/.gradle/caches/modules-2/files-2.1/com.nimbusds/oauth2-oidc-sdk/6.14/2f7730aa535fb720e12e26822c78d657b3dd6dbf/oauth2-oidc-sdk-6.14.jar" sourcepath="/Users/elishebaanderson/.gradle/caches/modules-2/files-2.1/com.nimbusds/oauth2-oidc-sdk/6.14/de7cddb29c65bbe0b57498d7e3b0c022f10e5d54/oauth2-oidc-sdk-6.14-sources.jar">
-		<attributes>
-			<attribute name="gradle_used_by_scope" value="main,test"/>
-		</attributes>
-	</classpathentry>
-	<classpathentry kind="lib" path="/Users/elishebaanderson/.gradle/caches/modules-2/files-2.1/com.nimbusds/nimbus-jose-jwt/7.8.1/b1c70bacb4fa53513ed2d13438e70f8f0770917b/nimbus-jose-jwt-7.8.1.jar" sourcepath="/Users/elishebaanderson/.gradle/caches/modules-2/files-2.1/com.nimbusds/nimbus-jose-jwt/7.8.1/bace49584fb45fd731f0a92ed5bae4dcf26fa5c8/nimbus-jose-jwt-7.8.1-sources.jar">
-		<attributes>
-			<attribute name="gradle_used_by_scope" value="main,test"/>
-		</attributes>
-	</classpathentry>
 	<classpathentry kind="lib" path="/Users/elishebaanderson/.gradle/caches/modules-2/files-2.1/ch.qos.logback/logback-core/1.2.3/864344400c3d4d92dfeb0a305dc87d953677c03c/logback-core-1.2.3.jar" sourcepath="/Users/elishebaanderson/.gradle/caches/modules-2/files-2.1/ch.qos.logback/logback-core/1.2.3/3ebabe69eba0196af9ad3a814f723fb720b9101e/logback-core-1.2.3-sources.jar">
 		<attributes>
 			<attribute name="gradle_used_by_scope" value="main,test"/>
@@ -444,27 +389,7 @@
 			<attribute name="gradle_used_by_scope" value="main,test"/>
 		</attributes>
 	</classpathentry>
-	<classpathentry kind="lib" path="/Users/elishebaanderson/.gradle/caches/modules-2/files-2.1/com.sun.mail/javax.mail/1.6.1/757ba4630692bb2a1ec2d9d57a616b63f15e947e/javax.mail-1.6.1.jar" sourcepath="/Users/elishebaanderson/.gradle/caches/modules-2/files-2.1/com.sun.mail/javax.mail/1.6.1/ce7825b8dafa3660bbb6d4b33f4f91fc1e93fe38/javax.mail-1.6.1-sources.jar">
-		<attributes>
-			<attribute name="gradle_used_by_scope" value="main,test"/>
-		</attributes>
-	</classpathentry>
-	<classpathentry kind="lib" path="/Users/elishebaanderson/.gradle/caches/modules-2/files-2.1/com.github.stephenc.jcip/jcip-annotations/1.0-1/ef31541dd28ae2cefdd17c7ebf352d93e9058c63/jcip-annotations-1.0-1.jar" sourcepath="/Users/elishebaanderson/.gradle/caches/modules-2/files-2.1/com.github.stephenc.jcip/jcip-annotations/1.0-1/2064ac5ff426f3c02656aedc317952b82463782f/jcip-annotations-1.0-1-sources.jar">
-		<attributes>
-			<attribute name="gradle_used_by_scope" value="main,test"/>
-		</attributes>
-	</classpathentry>
 	<classpathentry kind="lib" path="/Users/elishebaanderson/.gradle/caches/modules-2/files-2.1/net.minidev/json-smart/2.3/7396407491352ce4fa30de92efb158adb76b5b/json-smart-2.3.jar" sourcepath="/Users/elishebaanderson/.gradle/caches/modules-2/files-2.1/net.minidev/json-smart/2.3/36c61f1b839bde5b284528cb76f6811efbe0f08b/json-smart-2.3-sources.jar">
-		<attributes>
-			<attribute name="gradle_used_by_scope" value="main,test"/>
-		</attributes>
-	</classpathentry>
-	<classpathentry kind="lib" path="/Users/elishebaanderson/.gradle/caches/modules-2/files-2.1/com.nimbusds/lang-tag/1.5/7e82e3c4c593f85addf4bd209abde4f8ff933a07/lang-tag-1.5.jar" sourcepath="/Users/elishebaanderson/.gradle/caches/modules-2/files-2.1/com.nimbusds/lang-tag/1.5/407b9fb82d8ad52c5f6a2df469f7cf997ce8bc3/lang-tag-1.5-sources.jar">
-		<attributes>
-			<attribute name="gradle_used_by_scope" value="main,test"/>
-		</attributes>
-	</classpathentry>
-	<classpathentry kind="lib" path="/Users/elishebaanderson/.gradle/caches/modules-2/files-2.1/javax.activation/activation/1.1/e6cb541461c2834bdea3eb920f1884d1eb508b50/activation-1.1.jar" sourcepath="/Users/elishebaanderson/.gradle/caches/modules-2/files-2.1/javax.activation/activation/1.1/3697e9f67a2ed7ac5f589cff30f21173299440/activation-1.1-sources.jar">
 		<attributes>
 			<attribute name="gradle_used_by_scope" value="main,test"/>
 		</attributes>
@@ -627,7 +552,11 @@
 			<attribute name="gradle_used_by_scope" value="test"/>
 		</attributes>
 	</classpathentry>
-	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/Home"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/Home">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
 	<classpathentry kind="con" path="org.eclipse.jdt.junit.JUNIT_CONTAINER/5"/>
 	<classpathentry kind="output" path="bin/default"/>
 </classpath>
