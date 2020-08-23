@@ -9,8 +9,6 @@ import org.springframework.boot.test.autoconfigure.web.servlet.AutoConfigureMock
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.test.web.servlet.MockMvc;
 
-import com.maintenance.requests.repository.AppUsersRepository;
-
 @SpringBootTest
 @AutoConfigureMockMvc
 public class AppUserControllerTest {
@@ -18,13 +16,10 @@ public class AppUserControllerTest {
 	@Autowired
 	private MockMvc mockMvc;
 
-	@Autowired
-	private AppUsersRepository appUsersRepository;
-
 	@Test
 	public void testGetAppUsersController() throws Exception {
 
-		mockMvc.perform(get("/appUsers/1")).andExpect(status().isOk());
+		mockMvc.perform(get("/appUsers/")).andExpect(status().isOk());
 
 	}
 

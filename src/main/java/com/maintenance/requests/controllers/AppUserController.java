@@ -9,25 +9,25 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
+import com.maintenance.request.impl.DefaultAppUsersImpl;
 import com.maintenance.requests.entity.AppUsers;
-import com.maintenance.requests.repository.AppUsersRepository;
 
 @RestController
 public class AppUserController {
 
 	@Autowired
-	private AppUsersRepository appUsersRepository;
+	private DefaultAppUsersImpl appUserInterface;
 
 	@GetMapping("/appUsers/{id}")
 	public ResponseEntity<AppUsers> getOneAppUser(@RequestParam Long id) {
-		final Optional<AppUsers> appUser = appUsersRepository.findById(id);
-		Optional.ofNullable(appUser).orElseThrow();
+		final Optional<AppUsers> appUser = appUserInterface.getAnAppUser(id);
 		return ResponseEntity.ok(appUser.get());
 	}
 
 	@GetMapping("/appUsers/")
 	public ResponseEntity<List<AppUsers>> getAllAppUsers() {
-		return ResponseEntity.ok(appUsersRepository.findAll());
+		final List<AppUsers> appUser = appUserInterface.getAppUsers();
+		return ResponseEntity.ok(appUser);
 	}
 
 }
