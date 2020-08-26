@@ -9,14 +9,14 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.maintenance.request.impl.DefaultAppUsersImpl;
 import com.maintenance.requests.entity.AppUsers;
+import com.maintenance.requests.services.AppUsersInterface;
 
 @RestController
 public class AppUserController {
 
 	@Autowired
-	private DefaultAppUsersImpl appUserInterface;
+	private AppUsersInterface appUserInterface;
 
 	@GetMapping("/appUsers/{id}")
 	public ResponseEntity<AppUsers> getOneAppUser(@RequestParam Long id) {
