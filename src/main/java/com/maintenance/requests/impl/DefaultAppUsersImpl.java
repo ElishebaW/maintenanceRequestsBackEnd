@@ -1,4 +1,4 @@
-package com.maintenance.request.impl;
+package com.maintenance.requests.impl;
 
 import java.util.List;
 import java.util.Optional;

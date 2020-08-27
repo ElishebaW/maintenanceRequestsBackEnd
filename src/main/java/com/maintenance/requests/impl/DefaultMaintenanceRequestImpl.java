@@ -1,4 +1,4 @@
-package com.maintenance.request.impl;
+package com.maintenance.requests.impl;
 
 import org.springframework.stereotype.Service;
 
