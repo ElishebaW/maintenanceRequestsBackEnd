@@ -21,8 +21,12 @@ public class DefaultAppUsersImpl implements AppUsersInterface {
 
 	}
 
-	public Optional<AppUsers> getAnAppUser(Long id) {
+	public Optional<AppUsers> getAnAppUser(final Long id) {
 		return appUsersRepo.findById(id);
+	}
+
+	public void createAppUser(final AppUsers appUser) {
+		appUsersRepo.save(appUser);
 	}
 
 }

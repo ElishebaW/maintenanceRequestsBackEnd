@@ -12,5 +12,7 @@ public interface AppUsersInterface {
 
 	List<AppUsers> getAppUsers();
 
-	Optional<AppUsers> getAnAppUser(Long id);
+	Optional<AppUsers> getAnAppUser(final Long id);
+
+	void createAppUser(final AppUsers appUser);
 }

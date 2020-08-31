@@ -5,6 +5,6 @@ import org.springframework.stereotype.Service;
 import com.maintenance.requests.services.MaintenanceRequests;
 
 @Service
-public class DefaultMaintenanceRequestImpl implements MaintenanceRequests{
+public class DefaultMaintenanceRequestImpl implements MaintenanceRequests {
 
 }
