@@ -1,6 +1,7 @@
 package com.maintenance.requests.controllers;
 
 import static org.springframework.test.web.servlet.request.MockMvcRequestBuilders.get;
+import static org.springframework.test.web.servlet.request.MockMvcRequestBuilders.post;
 import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.status;
 
 import org.junit.jupiter.api.Test;
@@ -26,6 +27,20 @@ public class AppUserControllerTest {
 	public void testGetAppUsersController() throws Exception {
 
 		mockMvc.perform(get("/appUsers/")).andExpect(status().isOk());
+
+	}
+
+	@Test
+	public void testGetAnAppUserController() throws Exception {
+
+		mockMvc.perform(get("/appUsers/1")).andExpect(status().isOk());
+
+	}
+
+	@Test
+	public void testCreateAppUsersController() throws Exception {
+
+		mockMvc.perform(post("/")).andExpect(status().isCreated());
 
 	}
 

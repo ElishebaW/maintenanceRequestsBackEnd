@@ -31,7 +31,7 @@ public class AppUserController {
 		return ResponseEntity.ok(appUser);
 	}
 
-	@PostMapping(path = "/{appUser}", consumes = "application/json", produces = "application/json")
+	@PostMapping(path = "/", consumes = "application/json", produces = "application/json")
 	public void createAppUser(@RequestParam AppUsers appUser) {
 		appUserInterface.createAppUser(appUser);
 	}
